@@ -27,9 +27,12 @@ function handleSubmit(){
     // array = [[r,1],[i,2],[k,2],[e,2],[' ',1],[a,2],[c,1],[d,1],[m,1],[y,1]]
 
     // in ra kết quả
-    for (let i = 0; i < array.length; i++) {
-        console.log(`Ký tự ${array[i][0]} xuất hiện ${array[i][1]} lần`);
-    }
+   array.forEach(value => {
+        console.log(`Ký tự ${value[0]} xuất hiện ${value[1]} lần`);
+   })
+       
+
+ 
 
 }
 
